@@ -1,0 +1,53 @@
+doctype html
+
+head
+  title Pug
+  link(rel="stylesheet" href="style.css" ) 
+.nav
+  ul
+    li
+      a.nav-link(href='/') Home
+    li
+      a.nav-link(href='/services')
+        em Our Services
+    li
+       a.nav-link(href='contact') Contact Us
+
+.wrapper
+  ul.mat_list.card.scrollable
+    li
+      a This is the pure List
+    li
+      p In a Material like design
+    li
+      a Containing your elements
+    li
+      a In every way you want them to be handled
+.wrapper
+  ul.mat_list.card.scrollable
+    .mat_list_title
+      h1 A Title
+    li
+      a This one is the Same
+    li
+      p Just with a title
+    li
+      a Which is just an optional div
+    li
+      a So you don&apos;t have to spend hours finding out to make one
+    li
+      a And the following is even better
+.wrapper
+  ul.mat_list.card.scrollable
+    .mat_list_title(style='background-image:url(https://image.freepik.com/free-vector/shiny-triangles-background_23-2147512500.jpg);')
+      h1 A Title
+    li
+      a Background Images!
+    li
+      p just pastet into the style of the title div
+    li
+      a They cover by default
+    li
+      a And they are centered
+    li
+      a By the way, you can use the full size of the list Item

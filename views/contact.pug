@@ -1,0 +1,26 @@
+doctype html
+
+head
+  title Pug
+  link(rel="stylesheet" href="style.css" ) 
+.nav
+  ul
+    li
+      a.nav-link(href='/') Home
+    li
+      a.nav-link(href='/services')
+        em Our Services
+    li
+       a.nav-link(href='contact') Contact Us
+
+.container
+  p CONTACT US
+  .login
+    input.input(type='text' placeholder='Your Name')
+    input.input(type='text' placeholder='Your Email Address')
+  .subject
+    input.input(type='text' placeholder='Subject')
+  .msg
+    textarea.area(placeholder='Leave a Message')
+  .btn Send Message
+
